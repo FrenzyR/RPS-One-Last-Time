@@ -30,9 +30,11 @@ Especifica as características do contorno de tarefas do RPS e xustifica a túa 
 
 Resume as características do contorno nunha táboa co formato:
 
-Contorno de tarefas | Observable| Axentes | Determinista | Episódico | Estático | Discreto | Coñecido
-:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
- RPS | - | - | - | - | - |  - |  - |
+Contorno de tarefas |  Observable  | Axentes | Determinista | Episódico | Estático | Discreto |  Coñecido  
+:---: |:------------:|:-------:|:------------:|:---------:|:--------:|:--------:|:----------:|
+ RPS | Parcialmente |  Multi  | Determinista | Episódico | Estático | Discreto |   Conocido |
+ RPSLS | Parcialmente |  Multi  | Determinista | Episódico | Estático | Discreto |   Conocido |
+
 
 No libro atoparás unha táboa semellante:
 
@@ -45,6 +47,8 @@ O noso propósito é deseñar o **programa axente** que implementa a **función 
 A partires do modelo xeral de axente intelixente da figura:
 
 ![Modelo xeral axente intelixente](doc/modelo_AI.png)
+
+![img.png](img.png)
 
 **debuxa un modelo adecuado** ao contorno de tarefas e a un dos catro **tipos de programas axente**:
 
